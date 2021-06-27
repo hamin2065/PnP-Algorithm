@@ -11,3 +11,6 @@ if str(type(a)) == "<class 'int'>":
     print(chr(a))
 else:
     print(ord(a))
+
+# chr() -> 숫자를 넣으면 아스키코드 형태로 출력해주는 함수
+# ord() -> 문자를 넣으면 아스키코드 형태로 출력해주는 함수
